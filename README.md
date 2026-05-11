@@ -28,13 +28,10 @@ Users can generate AI-powered replies with customizable tones such as profession
 # Tech Stack
 
 ## Backend
-- Java 17
+- Java
 - Spring Boot
-- Spring Web
 - Spring WebFlux (WebClient)
 - Maven
-- Lombok
-- Jackson ObjectMapper
 
 ## Frontend
 - React.js
@@ -44,8 +41,7 @@ Users can generate AI-powered replies with customizable tones such as profession
 
 ## Browser Extension
 - Chrome Extension (Manifest V3)
-- JavaScript
-- MutationObserver API
+- MutationObserver 
 
 ## AI Integration
 - Google Gemini API
@@ -142,8 +138,7 @@ The Chrome Extension integrates directly into Gmail UI.
 
 ### Technologies Used
 - Manifest V3
-- Content Scripts
-- MutationObserver API
+- MutationObserver 
 
 ---
 
@@ -163,8 +158,8 @@ The Chrome Extension integrates directly into Gmail UI.
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/intellimail.git
-cd intellimail
+git clone https://github.com/your-username/smart-email.git
+cd smart-email
 ```
 
 ---
@@ -174,7 +169,7 @@ cd intellimail
 ## Navigate to Backend
 
 ```bash
-cd backend
+cd email-writer-sb
 ```
 
 ## Add Environment Variables
@@ -195,7 +190,7 @@ mvn clean install
 ## Run Backend
 
 ```bash
-mvn spring-boot:run
+run you backend server
 ```
 
 Backend runs on:
@@ -253,21 +248,15 @@ chrome://extensions/
 # Security Notes
 
 - API keys are stored using environment variables
-- `.env` files are excluded using `.gitignore`
-- Secrets are never hardcoded into source code
-
+  
 ---
 
 # Future Improvements
 
-- Fully reactive backend using Mono/Flux
-- Global exception handling using `@ControllerAdvice`
 - Redis caching for repeated prompts
 - JWT Authentication & User Accounts
 - Prompt history storage
-- AI streaming responses
 - Rate limiting
-- Multi-provider AI support
 
 ---
 
@@ -277,7 +266,6 @@ This project helped in understanding:
 - REST API development using Spring Boot
 - External API integration using WebClient
 - AI prompt engineering
-- JSON tree parsing using Jackson
 - Chrome Extension development
 - Gmail DOM manipulation
 - React frontend integration
@@ -285,7 +273,7 @@ This project helped in understanding:
 
 ---
 
-# Resume Highlights
+# Highlights
 
 - Built an AI-powered email assistant using Spring Boot and Gemini API
 - Integrated AI-generated responses directly into Gmail using a Chrome Extension
@@ -295,16 +283,4 @@ This project helped in understanding:
 
 ---
 
-# Author
 
-Ojas Pratap Singh
-
-GitHub: https://github.com/your-github-username
-
-LinkedIn: https://linkedin.com/in/your-linkedin
-
----
-
-# License
-
-This project is for educational and portfolio purposes.
